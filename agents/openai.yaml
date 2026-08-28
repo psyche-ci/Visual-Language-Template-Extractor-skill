@@ -1,0 +1,4 @@
+interface:
+  display_name: "视觉语言提取器"
+  short_description: "Extract reusable visual DNA from image or video references"
+  default_prompt: "Analyze my uploaded reference image or video, isolate the true design canvas, extract actionable visual DNA, and ask for confirmation before generating a reusable template."
