@@ -1,3 +1,4 @@
+# Secrets and local configuration
 .env
 .env.*
 !.env.example
@@ -7,8 +8,11 @@
 *.pfx
 credentials.json
 secrets.json
+
+# Temporary and generated files
 tmp/
 temp/
+tmp-*/
 *.tmp
 *.temp
 *.log
@@ -18,8 +22,15 @@ __pycache__/
 node_modules/
 dist/
 build/
+
+# Local editor and tooling state
 .idea/
 .vscode/
 .codex/
 .agents/
 coverage/
+
+# Local perler-chart experiments are not part of this Skill package
+perler-chart-*.png
+perler-chart-*.csv
+scripts/
