@@ -33,38 +33,54 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 
 ## 效果复刻案例
 
-以下案例展示 Skill 的典型输出方向：上半部分或左侧是视觉语言复刻效果，下半部分或右侧是目标素材/原始画面。复刻重点是保留目标主体，同时复现参考图的版式、纸张肌理、复古桌面窗口、标注方式和插画化装饰。
+以下案例展示 Skill 的典型输出方向。对有前后素材的案例，左侧放视觉语言复刻效果，右侧放目标原图，方便直接对照。复刻重点是保留目标主体，同时复现参考图的版式、纸张肌理、复古桌面窗口、标注方式和插画化装饰。案例图使用高质量原图裁切，不使用低分辨率缩略图。
 
 ### 撕纸拼贴与风景照片复刻
 
 保留目标照片中的人物、山体和画面关系，只提取参考中的撕纸边缘、纸张底色、颗粒质感和标题排版。
 
-![撕纸风景复刻案例](examples/case-01-weather-paper-collage.jpg)
+<table>
+<tr><th>视觉语言复刻效果</th><th>目标原图</th></tr>
+<tr>
+<td><img src="examples/case-01-weather-paper-collage-effect.jpg" alt="撕纸风景复刻效果" width="420"></td>
+<td><img src="examples/case-01-weather-paper-collage-original.jpg" alt="撕纸风景目标原图" width="420"></td>
+</tr>
+</table>
 
 ### 市场照片的纸张拼贴复刻
 
 将目标街市场景套用复古纸张、铅笔线稿、局部着色和手写标题语言；人物主体不以参考人物替换。
 
-![市场拼贴复刻案例](examples/case-02-market-paper-collage.jpg)
+<table>
+<tr><th>视觉语言复刻效果</th><th>目标原图</th></tr>
+<tr>
+<td><img src="examples/case-02-market-paper-collage-effect.jpg" alt="市场拼贴复刻效果" width="420"></td>
+<td><img src="examples/case-02-market-paper-collage-original.jpg" alt="市场拼贴目标原图" width="420"></td>
+</tr>
+</table>
 
 ### 复古桌面窗口与人像 Moodboard
 
 复刻文件夹、视频窗口、图片窗口、系统弹窗、标注框和播放器等真实 UI 层，同时锁定目标人物的原始脸部与身体像素。
 
-![复古桌面人像复刻案例](examples/case-03-retro-desktop-moodboard.jpg)
+<img src="examples/case-03-retro-desktop-moodboard-hq.jpg" alt="复古桌面人像复刻案例" width="620">
 
 ### 美妆细节桌面窗口复刻
 
 复现美妆主题的窗口布局、局部放大、紫色标注、播放列表和文件夹图标，人物五官只取自目标照片。
 
-![美妆桌面复刻案例](examples/case-04-beauty-desktop-moodboard.jpg)
+<img src="examples/case-04-beauty-desktop-moodboard-hq.jpg" alt="美妆桌面复刻案例" width="620">
 
 ### 插画化产品视觉
 
 对饮品和食物照片提取手绘线条、拟人化小角色、手写字和留白构图，生成可复用的插画视觉模板。
 
-![葡萄饮品插画案例](examples/case-05-illustrated-grape-drink.jpg)
-![寿司插画案例](examples/case-06-illustrated-sushi.jpg)
+<table>
+<tr>
+<td><img src="examples/case-05-illustrated-grape-drink.jpg" alt="葡萄饮品插画案例" width="300"></td>
+<td><img src="examples/case-06-illustrated-sushi.jpg" alt="寿司插画案例" width="300"></td>
+</tr>
+</table>
 
 ## 文件结构
 
@@ -73,10 +89,12 @@ visual-language-template-extractor/
 ├── SKILL.md
 ├── README.md
 ├── examples/
-│   ├── case-01-weather-paper-collage.jpg
-│   ├── case-02-market-paper-collage.jpg
-│   ├── case-03-retro-desktop-moodboard.jpg
-│   ├── case-04-beauty-desktop-moodboard.jpg
+│   ├── case-01-weather-paper-collage-effect.jpg
+│   ├── case-01-weather-paper-collage-original.jpg
+│   ├── case-02-market-paper-collage-effect.jpg
+│   ├── case-02-market-paper-collage-original.jpg
+│   ├── case-03-retro-desktop-moodboard-hq.jpg
+│   ├── case-04-beauty-desktop-moodboard-hq.jpg
 │   ├── case-05-illustrated-grape-drink.jpg
 │   └── case-06-illustrated-sushi.jpg
 └── agents/
