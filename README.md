@@ -42,8 +42,8 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 <table>
 <tr><th>原图</th><th>复刻图</th></tr>
 <tr>
-<td><img src="examples/case-01-paper-collage-original.png" alt="完整原图" width="420"></td>
-<td><img src="examples/case-01-paper-collage-replica.png" alt="完整复刻图" width="420"></td>
+<td><img src="examples/case-01-paper-collage-original.jpg" alt="完整原图" width="420"></td>
+<td><img src="examples/case-01-paper-collage-replica.jpg" alt="完整复刻图" width="420"></td>
 </tr>
 </table>
 
@@ -55,7 +55,7 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 <tr><th>原图</th><th>复刻图</th></tr>
 <tr>
 <td><img src="examples/case-03-retro-desktop-moodboard-hq.jpg" alt="复古桌面窗口人像原图" width="420"></td>
-<td><img src="examples/case-04-beauty-desktop-moodboard.png" alt="复古桌面窗口人像复刻图" width="420"></td>
+<td><img src="examples/case-04-beauty-desktop-moodboard.jpg" alt="复古桌面窗口人像复刻图" width="420"></td>
 </tr>
 </table>
 
@@ -77,10 +77,10 @@ visual-language-template-extractor/
 ├── SKILL.md
 ├── README.md
 ├── examples/
-│   ├── case-01-paper-collage-original.png
-│   ├── case-01-paper-collage-replica.png
+│   ├── case-01-paper-collage-original.jpg
+│   ├── case-01-paper-collage-replica.jpg
 │   ├── case-03-retro-desktop-moodboard-hq.jpg
-│   ├── case-04-beauty-desktop-moodboard.png
+│   ├── case-04-beauty-desktop-moodboard.jpg
 │   ├── case-05-heicha-grape-drink.png
 │   └── case-06-heicha-sushi.png
 └── agents/
