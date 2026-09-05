@@ -35,27 +35,15 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 
 以下案例展示 Skill 的典型输出方向。每个案例的原图/复刻图都是一张完整图片；只有“不同案例”才左右排版，不把一张原图拆成上下两张。图片文件按用户提供的原始格式和像素保存，页面只用 `width` 控制显示大小，不重新导出、不降采样、不把 PNG 转成 JPEG。
 
-### 撕纸拼贴与风景照片复刻
+### 撕纸拼贴视觉：原图 / 复刻图
 
-保留目标照片中的人物、山体和画面关系，只提取参考中的撕纸边缘、纸张底色、颗粒质感和标题排版。每个案例都用左原图、右复刻图对照，单张图内部不拆分。
-
-<table>
-<tr><th>原图</th><th>复刻图</th></tr>
-<tr>
-<td><img src="examples/case-01-weather-paper-collage-original.jpg" alt="风景原图" width="420"></td>
-<td><img src="examples/case-01-weather-paper-collage-effect.jpg" alt="风景撕纸复刻图" width="420"></td>
-</tr>
-</table>
-
-### 市场照片的纸张拼贴复刻
-
-将目标街市场景套用复古纸张、铅笔线稿、局部着色和手写标题语言；人物主体不以参考人物替换。左边是原图，右边是完整复刻图。
+图 1 是完整原图，图 2 是完整复刻图；两张图是一组。每张图片都保留用户提供文件的完整画布和内部上下结构，不拆分、不裁切、不把一张图改造成多个案例。
 
 <table>
 <tr><th>原图</th><th>复刻图</th></tr>
 <tr>
-<td><img src="examples/case-02-market-paper-collage-original.jpg" alt="市场原图" width="420"></td>
-<td><img src="examples/case-02-market-paper-collage-effect.jpg" alt="市场纸张拼贴复刻图" width="420"></td>
+<td><img src="examples/case-01-paper-collage-original.png" alt="完整原图" width="420"></td>
+<td><img src="examples/case-01-paper-collage-replica.png" alt="完整复刻图" width="420"></td>
 </tr>
 </table>
 
@@ -89,10 +77,8 @@ visual-language-template-extractor/
 ├── SKILL.md
 ├── README.md
 ├── examples/
-│   ├── case-01-weather-paper-collage-effect.jpg
-│   ├── case-01-weather-paper-collage-original.jpg
-│   ├── case-02-market-paper-collage-effect.jpg
-│   ├── case-02-market-paper-collage-original.jpg
+│   ├── case-01-paper-collage-original.png
+│   ├── case-01-paper-collage-replica.png
 │   ├── case-03-retro-desktop-moodboard-hq.jpg
 │   ├── case-04-beauty-desktop-moodboard.png
 │   ├── case-05-heicha-grape-drink.png
@@ -110,3 +96,4 @@ visual-language-template-extractor/
 - 参考图与目标图必须分角色传入；没有目标图时只提炼视觉语言，不生成复刻图。
 - 不在用户确认模板结构之前生成最终复刻。
 - 不压缩已确认的视觉语言或可复用中文 Prompt。
+
