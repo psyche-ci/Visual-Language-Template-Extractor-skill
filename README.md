@@ -65,8 +65,8 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 
 <table>
 <tr>
-<td><img src="examples/case-05-illustrated-grape-drink.jpg" alt="喜茶风葡萄饮品案例" width="300"></td>
-<td><img src="examples/case-06-illustrated-sushi.jpg" alt="喜茶风寿司案例" width="300"></td>
+<td><img src="examples/case-05-heicha-grape-drink.jpg" alt="喜茶风葡萄饮品案例" width="300"></td>
+<td><img src="examples/case-06-heicha-sushi.jpg" alt="喜茶风寿司案例" width="300"></td>
 </tr>
 </table>
 
@@ -81,8 +81,8 @@ visual-language-template-extractor/
 │   ├── case-02-market-paper-collage.jpg
 │   ├── case-03-retro-desktop-moodboard-hq.jpg
 │   ├── case-04-beauty-desktop-moodboard-hq.jpg
-│   ├── case-05-illustrated-grape-drink.jpg
-│   └── case-06-illustrated-sushi.jpg
+│   ├── case-05-heicha-grape-drink.jpg
+│   └── case-06-heicha-sushi.jpg
 └── agents/
     └── openai.yaml
 ```
