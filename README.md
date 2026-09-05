@@ -47,17 +47,17 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 
 <img src="examples/case-02-market-paper-collage.jpg" alt="完整的市场纸张拼贴案例图" width="620">
 
-### 复古桌面窗口与人像 Moodboard
+### 复古桌面窗口与人像 Moodboard：原图 / 复刻图
 
-复刻文件夹、视频窗口、图片窗口、系统弹窗、标注框和播放器等真实 UI 层，同时锁定目标人物的原始脸部与身体像素。
+左边是视觉语言提取用的原图，右边是同一套窗口、弹窗、标注框、播放器和文件夹语言套用到目标照片后的复刻图。两张图都保持完整画布，不裁切、不拆分；复刻图人物五官只取自目标照片。
 
-<img src="examples/case-03-retro-desktop-moodboard-hq.jpg" alt="复古桌面人像复刻案例" width="620">
-
-### 美妆细节桌面窗口复刻
-
-复现美妆主题的窗口布局、局部放大、紫色标注、播放列表和文件夹图标，人物五官只取自目标照片。
-
-<img src="examples/case-04-beauty-desktop-moodboard-hq.jpg" alt="美妆桌面复刻案例" width="620">
+<table>
+<tr><th>原图</th><th>复刻图</th></tr>
+<tr>
+<td><img src="examples/case-03-retro-desktop-moodboard-hq.jpg" alt="复古桌面窗口人像原图" width="420"></td>
+<td><img src="examples/case-04-beauty-desktop-moodboard.png" alt="复古桌面窗口人像复刻图" width="420"></td>
+</tr>
+</table>
 
 ### 喜茶风产品视觉
 
@@ -65,8 +65,8 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 
 <table>
 <tr>
-<td><img src="examples/case-05-heicha-grape-drink.jpg" alt="喜茶风葡萄饮品案例" width="300"></td>
-<td><img src="examples/case-06-heicha-sushi.jpg" alt="喜茶风寿司案例" width="300"></td>
+<td><img src="examples/case-05-heicha-grape-drink.png" alt="喜茶风葡萄饮品案例" width="300"></td>
+<td><img src="examples/case-06-heicha-sushi.png" alt="喜茶风寿司案例" width="300"></td>
 </tr>
 </table>
 
@@ -80,9 +80,9 @@ visual-language-template-extractor/
 │   ├── case-01-weather-paper-collage.jpg
 │   ├── case-02-market-paper-collage.jpg
 │   ├── case-03-retro-desktop-moodboard-hq.jpg
-│   ├── case-04-beauty-desktop-moodboard-hq.jpg
-│   ├── case-05-heicha-grape-drink.jpg
-│   └── case-06-heicha-sushi.jpg
+│   ├── case-04-beauty-desktop-moodboard.png
+│   ├── case-05-heicha-grape-drink.png
+│   └── case-06-heicha-sushi.png
 └── agents/
     └── openai.yaml
 ```
