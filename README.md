@@ -45,7 +45,7 @@ git clone <repository-url> ~/.codex/skills/visual-language-template-extractor
 
 将目标街市场景套用复古纸张、铅笔线稿、局部着色和手写标题语言；人物主体不以参考人物替换。
 
-![市场拼贴复刻案例](examples/case-02-market-paper-collage.png)
+![市场拼贴复刻案例](examples/case-02-market-paper-collage.jpg)
 
 ### 复古桌面窗口与人像 Moodboard
 
@@ -57,14 +57,14 @@ git clone <repository-url> ~/.codex/skills/visual-language-template-extractor
 
 复现美妆主题的窗口布局、局部放大、紫色标注、播放列表和文件夹图标，人物五官只取自目标照片。
 
-![美妆桌面复刻案例](examples/case-04-beauty-desktop-moodboard.png)
+![美妆桌面复刻案例](examples/case-04-beauty-desktop-moodboard.jpg)
 
 ### 插画化产品视觉
 
 对饮品和食物照片提取手绘线条、拟人化小角色、手写字和留白构图，生成可复用的插画视觉模板。
 
-![葡萄饮品插画案例](examples/case-05-illustrated-grape-drink.png)
-![寿司插画案例](examples/case-06-illustrated-sushi.png)
+![葡萄饮品插画案例](examples/case-05-illustrated-grape-drink.jpg)
+![寿司插画案例](examples/case-06-illustrated-sushi.jpg)
 
 ## 文件结构
 
@@ -74,11 +74,11 @@ visual-language-template-extractor/
 ├── README.md
 ├── examples/
 │   ├── case-01-weather-paper-collage.jpg
-│   ├── case-02-market-paper-collage.png
+│   ├── case-02-market-paper-collage.jpg
 │   ├── case-03-retro-desktop-moodboard.jpg
-│   ├── case-04-beauty-desktop-moodboard.png
-│   ├── case-05-illustrated-grape-drink.png
-│   └── case-06-illustrated-sushi.png
+│   ├── case-04-beauty-desktop-moodboard.jpg
+│   ├── case-05-illustrated-grape-drink.jpg
+│   └── case-06-illustrated-sushi.jpg
 └── agents/
     └── openai.yaml
 ```
