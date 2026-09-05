@@ -18,7 +18,7 @@
 将本仓库克隆到 Codex 的 skills 目录：
 
 ```bash
-git clone <repository-url> ~/.codex/skills/visual-language-template-extractor
+git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.git ~/.codex/skills/visual-language-template-extractor
 ```
 
 重新启动 Codex 后，可通过 `$visual-language-extractor` 调用。
