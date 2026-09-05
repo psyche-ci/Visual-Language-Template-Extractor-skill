@@ -37,15 +37,27 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 
 ### 撕纸拼贴与风景照片复刻
 
-保留目标照片中的人物、山体和画面关系，只提取参考中的撕纸边缘、纸张底色、颗粒质感和标题排版。这里展示的是一张完整案例图，不拆成“效果图/原图”两张。
+保留目标照片中的人物、山体和画面关系，只提取参考中的撕纸边缘、纸张底色、颗粒质感和标题排版。每个案例都用左原图、右复刻图对照，单张图内部不拆分。
 
-<img src="examples/case-01-weather-paper-collage.jpg" alt="完整的撕纸风景案例图" width="620">
+<table>
+<tr><th>原图</th><th>复刻图</th></tr>
+<tr>
+<td><img src="examples/case-01-weather-paper-collage-original.jpg" alt="风景原图" width="420"></td>
+<td><img src="examples/case-01-weather-paper-collage-effect.jpg" alt="风景撕纸复刻图" width="420"></td>
+</tr>
+</table>
 
 ### 市场照片的纸张拼贴复刻
 
-将目标街市场景套用复古纸张、铅笔线稿、局部着色和手写标题语言；人物主体不以参考人物替换。这里同样保留整张原图的上下结构。
+将目标街市场景套用复古纸张、铅笔线稿、局部着色和手写标题语言；人物主体不以参考人物替换。左边是原图，右边是完整复刻图。
 
-<img src="examples/case-02-market-paper-collage.jpg" alt="完整的市场纸张拼贴案例图" width="620">
+<table>
+<tr><th>原图</th><th>复刻图</th></tr>
+<tr>
+<td><img src="examples/case-02-market-paper-collage-original.jpg" alt="市场原图" width="420"></td>
+<td><img src="examples/case-02-market-paper-collage-effect.jpg" alt="市场纸张拼贴复刻图" width="420"></td>
+</tr>
+</table>
 
 ### 复古桌面窗口与人像 Moodboard：原图 / 复刻图
 
@@ -77,8 +89,10 @@ visual-language-template-extractor/
 ├── SKILL.md
 ├── README.md
 ├── examples/
-│   ├── case-01-weather-paper-collage.jpg
-│   ├── case-02-market-paper-collage.jpg
+│   ├── case-01-weather-paper-collage-effect.jpg
+│   ├── case-01-weather-paper-collage-original.jpg
+│   ├── case-02-market-paper-collage-effect.jpg
+│   ├── case-02-market-paper-collage-original.jpg
 │   ├── case-03-retro-desktop-moodboard-hq.jpg
 │   ├── case-04-beauty-desktop-moodboard.png
 │   ├── case-05-heicha-grape-drink.png
