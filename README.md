@@ -33,31 +33,19 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 
 ## 效果复刻案例
 
-以下案例展示 Skill 的典型输出方向。对有前后素材的案例，左侧放视觉语言复刻效果，右侧放目标原图，方便直接对照。复刻重点是保留目标主体，同时复现参考图的版式、纸张肌理、复古桌面窗口、标注方式和插画化装饰。案例图使用高质量原图裁切，不使用低分辨率缩略图。
+以下案例展示 Skill 的典型输出方向。每个案例的原图/复刻图都是一张完整图片；只有“不同案例”才左右排版，不把一张原图拆成上下两张。图片文件按用户提供的原始格式和像素保存，页面只用 `width` 控制显示大小，不重新导出、不降采样、不把 PNG 转成 JPEG。
 
 ### 撕纸拼贴与风景照片复刻
 
-保留目标照片中的人物、山体和画面关系，只提取参考中的撕纸边缘、纸张底色、颗粒质感和标题排版。
+保留目标照片中的人物、山体和画面关系，只提取参考中的撕纸边缘、纸张底色、颗粒质感和标题排版。这里展示的是一张完整案例图，不拆成“效果图/原图”两张。
 
-<table>
-<tr><th>视觉语言复刻效果</th><th>目标原图</th></tr>
-<tr>
-<td><img src="examples/case-01-weather-paper-collage-effect.jpg" alt="撕纸风景复刻效果" width="420"></td>
-<td><img src="examples/case-01-weather-paper-collage-original.jpg" alt="撕纸风景目标原图" width="420"></td>
-</tr>
-</table>
+<img src="examples/case-01-weather-paper-collage.jpg" alt="完整的撕纸风景案例图" width="620">
 
 ### 市场照片的纸张拼贴复刻
 
-将目标街市场景套用复古纸张、铅笔线稿、局部着色和手写标题语言；人物主体不以参考人物替换。
+将目标街市场景套用复古纸张、铅笔线稿、局部着色和手写标题语言；人物主体不以参考人物替换。这里同样保留整张原图的上下结构。
 
-<table>
-<tr><th>视觉语言复刻效果</th><th>目标原图</th></tr>
-<tr>
-<td><img src="examples/case-02-market-paper-collage-effect.jpg" alt="市场拼贴复刻效果" width="420"></td>
-<td><img src="examples/case-02-market-paper-collage-original.jpg" alt="市场拼贴目标原图" width="420"></td>
-</tr>
-</table>
+<img src="examples/case-02-market-paper-collage.jpg" alt="完整的市场纸张拼贴案例图" width="620">
 
 ### 复古桌面窗口与人像 Moodboard
 
@@ -71,14 +59,14 @@ git clone https://github.com/psyche-ci/Visual-Language-Template-Extractor-skill.
 
 <img src="examples/case-04-beauty-desktop-moodboard-hq.jpg" alt="美妆桌面复刻案例" width="620">
 
-### 插画化产品视觉
+### 喜茶风产品视觉
 
-对饮品和食物照片提取手绘线条、拟人化小角色、手写字和留白构图，生成可复用的插画视觉模板。
+这是喜茶风的产品视觉：以真实饮品和食物照片为主体，叠加手绘线条、拟人化小角色、手写字和留白构图；不把它归类为插画风，也不把照片重绘成插画。
 
 <table>
 <tr>
-<td><img src="examples/case-05-illustrated-grape-drink.jpg" alt="葡萄饮品插画案例" width="300"></td>
-<td><img src="examples/case-06-illustrated-sushi.jpg" alt="寿司插画案例" width="300"></td>
+<td><img src="examples/case-05-illustrated-grape-drink.jpg" alt="喜茶风葡萄饮品案例" width="300"></td>
+<td><img src="examples/case-06-illustrated-sushi.jpg" alt="喜茶风寿司案例" width="300"></td>
 </tr>
 </table>
 
@@ -89,10 +77,8 @@ visual-language-template-extractor/
 ├── SKILL.md
 ├── README.md
 ├── examples/
-│   ├── case-01-weather-paper-collage-effect.jpg
-│   ├── case-01-weather-paper-collage-original.jpg
-│   ├── case-02-market-paper-collage-effect.jpg
-│   ├── case-02-market-paper-collage-original.jpg
+│   ├── case-01-weather-paper-collage.jpg
+│   ├── case-02-market-paper-collage.jpg
 │   ├── case-03-retro-desktop-moodboard-hq.jpg
 │   ├── case-04-beauty-desktop-moodboard-hq.jpg
 │   ├── case-05-illustrated-grape-drink.jpg
